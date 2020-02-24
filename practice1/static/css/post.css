@@ -1,0 +1,50 @@
+header, header a{
+    color: #FFFFFF;
+    background-color: #19C9D8;
+    font-size: 15px;
+    text-align:  center;
+    /*height:17px;*/
+    /*width:300px;*/
+}
+.mostleft{
+    padding-left:20px
+}
+.header-logo li{
+    list-style: none;  
+    float: left;
+    font-size:10px;
+}
+.FashionTrend{
+    width:400px;
+    height:300px;
+    margin:  0 auto;
+    display:block;
+}
+.cloth1{
+    margin:  0 auto;
+    display:block;
+}
+.clothtext{
+    color :white;
+    background-color: #5876FF;
+    margin:10px;
+    text-align:  center;
+    border:1px solid black;
+}
+.tag{
+    color:black;
+    background-color:yellow;
+    float:right;
+}
+.list,.list a{
+    color:#5DC5F4;
+    padding-left:10px;
+}
+footer li, footer a{
+    color:#000;
+    list-style:none;
+    font-size:20px;
+}
+.mostfooter{
+    text-align:  center; 
+}
