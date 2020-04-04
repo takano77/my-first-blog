@@ -4,7 +4,7 @@ from django.utils import timezone
 
 
 class Post(models.Model):
-    author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE,related_name='practice1')
+    author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name="Post.author+")
     title = models.CharField(max_length=200)
     text = models.TextField()
     created_date = models.DateTimeField(default=timezone.now)
@@ -16,10 +16,3 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
-'''
-class Color(models.Model):
-    your_color=models.CharField(
-    verbose_name="色",
-    max_length=1,
-    choices=COLOR_CHOICES,
-    )'''
